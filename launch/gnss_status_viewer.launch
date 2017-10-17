@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="gnss_status_viewer" type="gnss_status_viewer.py" name="gnss_status_viewer" >
+  </node>
+</launch>
