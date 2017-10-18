@@ -8,7 +8,7 @@ quality_table = {
     '0': 'Invalid',
     '1': 'GPS',
     '4': 'RTK',
-    '5': 'Float RTK',
+    '5': 'FloatRTK',
 }
 
 is_first_data = True
