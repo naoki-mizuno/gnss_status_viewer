@@ -6,8 +6,8 @@ from nmea_msgs.msg import Sentence
 quality_table = {
     '': 'Empty GGA',
     '0': 'Invalid',
-    '2': 'Diff',
     '1': 'GPS',
+    '2': 'DGPS',
     '4': 'RTK',
     '5': 'FloatRTK',
 }
