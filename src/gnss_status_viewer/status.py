@@ -21,6 +21,8 @@ class Status:
         tokens = gga.strip().split(',')
         if tokens[0] != '$GPGGA':
             return
+        if any([t == '' for t in tokens]):
+            return
 
         self.fix = tokens[6]
         self.num_sat = int(tokens[7])
